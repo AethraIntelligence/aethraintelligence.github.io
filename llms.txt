@@ -26,6 +26,7 @@
 - [Install](https://aethraintelligence.com/#install): the install command and requirements
 - [FAQ](https://aethraintelligence.com/#faq)
 - [Source code and install instructions](https://github.com/ysz7/Prometheus)
+- [Documentation](https://ysz7.github.io/Prometheus/): how to install, set up and use Prometheus
 - [Privacy](https://aethraintelligence.com/privacy/)
 
 ## Blog
@@ -40,3 +41,4 @@
 
 - Email: support@aethraintelligence.com
 - GitHub: https://github.com/ysz7/Prometheus
+- Documentation: https://ysz7.github.io/Prometheus/
