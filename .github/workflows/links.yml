@@ -1,0 +1,28 @@
+name: Check links
+
+# The site has no build step: GitHub Pages serves these files as they are.
+# This job only catches a broken internal link or a missing file before it
+# reaches visitors and search engines.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --root-dir ${{ github.workspace }}
+            --exclude-path templates
+            --exclude "^mailto:"
+            --exclude "aethraintelligence\.com"
+            './**/*.html'
+          fail: true

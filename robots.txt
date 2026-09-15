@@ -1,0 +1,35 @@
+# Everything on this site is public and meant to be read -
+# by search engines and by AI assistants alike.
+
+User-agent: *
+Allow: /
+
+# AI crawlers are named explicitly, so allowing them is a visible decision.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://aethraintelligence.com/sitemap.xml

@@ -1,0 +1,42 @@
+# Aethra Intelligence
+
+> Aethra Intelligence is a research and engineering company that builds AI systems people can trust with real work. Its first product is Prometheus, a desktop app where an AI manager and a team of AI employees do real work on the user's own computer.
+
+## About Prometheus
+
+- Prometheus takes a goal written in plain language. An AI manager plans the work, gives each part to an AI employee, checks the result, and writes one answer.
+- Five AI employees ship with it: a researcher (web search, reading pages, sources), an analyst (calculates answers from data by running code), a writer (documents and PDFs), an organizer (sorts files and folders) and an operator (uses websites and interfaces that have no API).
+- It runs on the user's own computer. Files, results, history and memory are stored locally. There is no account.
+- It works with free local AI models through Ollama, fully offline, or with hosted providers the user chooses: OpenAI, Anthropic, Google Gemini, OpenRouter. With a hosted provider, request text goes to that provider.
+- Acceptance criteria are written before work starts, and the result is checked against what actually happened on the computer, not against the AI's own report.
+- Reading and writing inside a task's folder happen right away. Sending, spending, deleting, publishing and running generated code wait for a person's approval; an unanswered approval counts as no. Every action, including refusals, is recorded.
+- It answers from documents the user adds (PDF, Word, Markdown, HTML, CSV, JSON, text), quoting the source, including across languages.
+- It connects to services through plugins (MCP), such as Gmail, Google Drive, Notion, Slack and GitHub; a service is available only to employees the user grants it to.
+- It can run work on a schedule ("every morning") and remembers user preferences.
+- New AI employees are added with a short description file, without code.
+- License: free and open source under the MIT license. No subscription.
+- Status: in active development. No installer yet.
+- Install (macOS or Linux; requires Python 3.12+ with uv, Node.js 20+, the Rust toolchain, and Ollama or an AI provider key): `git clone https://github.com/ysz7/Prometheus.git && cd Prometheus && ./start.sh`
+- Start again later: run `./start.sh` in the Prometheus folder. The script installs dependencies, sets up the database and opens the desktop app.
+
+## Key pages
+
+- [Home](https://aethraintelligence.com/): mission, what Prometheus does, how it works, comparison, FAQ
+- [Why Prometheus: comparison](https://aethraintelligence.com/#compare): Prometheus compared with chat assistants, cloud AI agents and automation tools
+- [Install](https://aethraintelligence.com/#install): the install command and requirements
+- [FAQ](https://aethraintelligence.com/#faq)
+- [Source code and install instructions](https://github.com/ysz7/Prometheus)
+- [Privacy](https://aethraintelligence.com/privacy/)
+
+## Blog
+
+- [AI chatbot or AI employee? What changes when AI does the work](https://aethraintelligence.com/blog/ai-chatbot-vs-ai-employee/): the difference between chatbots and AI employees, and five questions to ask before trusting one (by Denys Zhodik)
+
+## Authors
+
+- [Denys Zhodik](https://aethraintelligence.com/authors/denys-zhodik/): builds Prometheus at Aethra Intelligence; LinkedIn: https://www.linkedin.com/in/denyszhodik/
+
+## Contact
+
+- Email: support@aethraintelligence.com
+- GitHub: https://github.com/ysz7/Prometheus

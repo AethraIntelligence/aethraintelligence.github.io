@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Aethra Intelligence Blog</title>
+    <link>https://aethraintelligence.com/blog/</link>
+    <description>Plain-language guides to AI that does real work, from the makers of Prometheus.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Sep 2026 09:00:00 GMT</lastBuildDate>
+    <atom:link href="https://aethraintelligence.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <!-- NEW ARTICLE: add an <item> at the TOP and update lastBuildDate. -->
+    <item>
+      <title>AI chatbot or AI employee? What changes when AI does the work</title>
+      <link>https://aethraintelligence.com/blog/ai-chatbot-vs-ai-employee/</link>
+      <guid isPermaLink="true">https://aethraintelligence.com/blog/ai-chatbot-vs-ai-employee/</guid>
+      <pubDate>Tue, 15 Sep 2026 09:00:00 GMT</pubDate>
+      <dc:creator>Denys Zhodik</dc:creator>
+      <category>Guides</category>
+      <description>A chatbot hands you text. An AI employee hands you the finished work. What the difference means in practice, and five questions to ask before you trust one.</description>
+    </item>
+  </channel>
+</rss>
