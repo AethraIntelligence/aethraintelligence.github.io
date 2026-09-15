@@ -119,25 +119,20 @@ in the article and `lastmod` in `sitemap.xml`.
 
 ## Screenshots
 
-The Prometheus section on the homepage has five placeholders. Take the
-screenshots in the desktop window (a clean workspace, a real but non-private task,
-light theme, window around 1440×900), save them as WebP or PNG in 16:10 into
-`assets/screenshots/`, and replace each placeholder:
+The Prometheus section on the homepage shows five screenshots from
+`assets/screenshots/` (WebP, 1600×1000, 16:10, macOS menu bar cropped out):
 
-```html
-<div class="shot-img"><img src="assets/screenshots/01-ask.webp" width="1200" height="750" loading="lazy" alt="..."></div>
-```
+| File              | What it shows                                               |
+|-------------------|-------------------------------------------------------------|
+| `01-ask.webp`       | A new task: the goal field and the Workforce list           |
+| `02-result.webp`    | A finished answer with its PDF open in the preview beside it |
+| `03-approval.webp`  | An approval request before overwriting a file               |
+| `04-plugins.webp`   | Settings -> Plugins with GitHub, Gmail, Google Drive, Notion |
+| `05-documents.webp` | Settings -> Documents with an indexed document              |
 
-| File          | What to show                                                        |
-|---------------|---------------------------------------------------------------------|
-| `01-ask`      | A goal typed into the field of an empty thread                      |
-| `02-result`   | A finished answer with its PDF open in the preview beside it       |
-| `03-approval` | An approval request (for example, sending an email)                 |
-| `04-progress` | A task running, with employees' steps visible                       |
-| `05-plugins`  | Settings -> Plugins with Gmail, Google Drive, Notion                |
-
-The alt text for each is in a comment next to its placeholder. Keep each file under
-about 200 KB (`cwebp -q 82 in.png -o out.webp`).
+To replace one, take the screenshot in the desktop window (light theme, a real but
+non-private task), save it under the same name in 16:10, keep it under about
+200 KB (`cwebp -q 82 in.png -o out.webp`) and update its alt text in `index.html`.
 
 ## Brand
 
