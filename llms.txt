@@ -16,7 +16,7 @@
 - New AI employees are added with a short description file, without code.
 - License: free and open source under the MIT license. No subscription.
 - Status: in active development. No installer yet.
-- Install (macOS or Linux; requires Python 3.12+ with uv, Node.js 20+, the Rust toolchain, and Ollama or an AI provider key): `git clone https://github.com/ysz7/Prometheus.git && cd Prometheus && ./start.sh`
+- Install (macOS or Linux; requires Python 3.12+ with uv, Node.js 20+, the Rust toolchain, and Ollama or an AI provider key): `git clone https://github.com/AethraIntelligence/Prometheus.git && cd Prometheus && ./start.sh`
 - Start again later: run `./start.sh` in the Prometheus folder. The script installs dependencies, sets up the database and opens the desktop app.
 
 ## Key pages
@@ -25,8 +25,8 @@
 - [Why Prometheus: comparison](https://aethraintelligence.com/#compare): Prometheus compared with chat assistants, cloud AI agents and automation tools
 - [Install](https://aethraintelligence.com/#install): the install command and requirements
 - [FAQ](https://aethraintelligence.com/#faq)
-- [Source code and install instructions](https://github.com/ysz7/Prometheus)
-- [Documentation](https://ysz7.github.io/Prometheus/): how to install, set up and use Prometheus
+- [Source code and install instructions](https://github.com/AethraIntelligence/Prometheus)
+- [Documentation](https://aethraintelligence.com/Prometheus/): how to install, set up and use Prometheus
 - [Privacy](https://aethraintelligence.com/privacy/)
 
 ## Blog
@@ -40,5 +40,5 @@
 ## Contact
 
 - Email: support@aethraintelligence.com
-- GitHub: https://github.com/ysz7/Prometheus
-- Documentation: https://ysz7.github.io/Prometheus/
+- GitHub: https://github.com/AethraIntelligence/Prometheus
+- Documentation: https://aethraintelligence.com/Prometheus/
